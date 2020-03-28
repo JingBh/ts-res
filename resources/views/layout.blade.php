@@ -6,6 +6,8 @@
     <meta name="description" content="{{ __("ui.title") . " " . __("about.p1") }}">
     <meta name="theme-color" content="#222222">
     <link rel="stylesheet" href="{{ mix("css/app.css") }}">
+    <link rel="icon" href="/images/library.png">
+    @include("track")
     <title>{{ __("ui.title") }}</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
 <div class="container mb-3">
     <p class="text-muted text-center text-sm-right">Datasource: <a href="https://yayponies.no/" target="_blank">Yayponies</a></p>
     @include("nav")
-    <div class="mt-2">
+    <div class="mt-3">
         @yield("content")
     </div>
 </div>
