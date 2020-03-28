@@ -1,0 +1,10 @@
+@import "variables";
+@import "libraries";
+
+hr {
+    border-color: $gray-700;
+}
+
+[data-toggle="collapse"] {
+    cursor: pointer;
+}
