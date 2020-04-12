@@ -26,3 +26,5 @@ Route::group([
     })->name("about");
 
 });
+
+Route::view("equestria", "equestria");

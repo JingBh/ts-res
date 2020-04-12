@@ -12,7 +12,7 @@
             <p>{{ __("ui.source") . __("ui.colon") }}<a href="https://github.com/JingBh/ts-res" target="_blank">GitHub</a></p>
         </div>
         <div class="col-md-auto text-center">
-            <img class="img-fluid d-none d-md-block" src="/images/library.png" alt="Library" style="max-height:15rem;">
+            <img class="img-fluid d-none d-md-block" src="/static/images/library.png" alt="Library" style="max-height:15rem;">
         </div>
     </div>
 @endsection

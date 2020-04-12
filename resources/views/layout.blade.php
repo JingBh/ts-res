@@ -6,7 +6,7 @@
     <meta name="description" content="{{ __("ui.title") . " " . __("about.p1") }}">
     <meta name="theme-color" content="#222222">
     <link rel="stylesheet" href="{{ mix("css/app.css") }}">
-    <link rel="icon" href="/images/library.png">
+    <link rel="icon" href="/static/images/library.png">
     @include("baidupush")
     @include("track")
     <title>{{ __("ui.title") }}</title>
